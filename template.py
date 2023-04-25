@@ -148,6 +148,7 @@ def create_file_for_flag_3():
     copied_blocks_int = copy.deepcopy(blocks_int)
 
     # XXX: Your code here; transform the blocks here
+    copied_blocks_int[2] = copied_blocks_int[1]
 
     # in case you used blocks_int
     bytestring = convert_int_blocks_to_bytestring(copied_blocks_int)
